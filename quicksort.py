@@ -2,6 +2,7 @@
 
 def quicksort(array):
     size = len(array)
+    assert not size == 0, 'Non-empty list expected , got size=0'
     _quicksort(array, 0, size - 1)
 
 
