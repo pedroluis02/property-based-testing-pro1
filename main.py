@@ -17,7 +17,7 @@ def generate_int_values(length=1, max_value=1000):
 if __name__ == '__main__':
     print('Sort values')
     values = generate_int_values(10)
-    print(values)
+    print(f'unordered: {values}')
 
     quicksort(values)
-    print(values)
+    print(f'ordered: {values}')
